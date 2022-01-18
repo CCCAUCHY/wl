@@ -1,0 +1,109 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4357,        101]
+NotebookOptionsPosition[      3952,         85]
+NotebookOutlinePosition[      4404,        103]
+CellTagsIndexPosition[      4361,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Export", "[", 
+     RowBox[{
+      RowBox[{"\"\<\:ff08\:5927\:ff09\>\"", "<>", "#1"}], ",", 
+      RowBox[{"#2", "~", "ImageResize", "~", "5120"}]}], "]"}], "&"}], "@@@", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"#", "~", "StringSplit", "~", "\"\<\\\\\>\""}], ")"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"-", "1"}], "]"}], "]"}], ",", 
+        RowBox[{"Import", "@", "#"}]}], "}"}], "&"}], "/@", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:57ce\:5e02\:5b89\:5168.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:57ce\:5e02\:670d\:52a1.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:57ce\:5e02\:753b\:50cf.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:57ce\:5e02\:6cbb\:7406.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:4ea4\:901a\:8fd0\:884c.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:7ecf\:6d4e\:8fd0\:884c.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:751f\:6001\:73af\:4fdd.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:6570\:5b57\:5b6a\:751f.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:6587\:5316\:65c5\:6e38.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:75ab\:60c5\:9632\:63a7.png\>\"", ",", 
+       "\"\<C:\\\\Users\\\\cauchy\\\\Documents\\\\WeChat \
+Files\\\\wxid_bi0v4reamz4n22\\\\FileStorage\\\\File\\\\2021-08\\\\\:622a\:56fe\
+\\\\\:8425\:5546\:73af\:5883.png\>\""}], "}"}]}], ")"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8383557152795563`*^9, 3.8383557445834327`*^9}, {
+   3.8383557810756245`*^9, 3.838355787198492*^9}, {3.838355820055915*^9, 
+   3.838355822699148*^9}, {3.8383559069236207`*^9, 3.8383559092497663`*^9}, {
+   3.8383560107593203`*^9, 3.8383560517795353`*^9}, {3.8383627303811655`*^9, 
+   3.838362842348865*^9}, {3.8383629465285854`*^9, 3.838362946897853*^9}, {
+   3.8383630341694098`*^9, 3.8383630809067326`*^9}, {3.838363121432972*^9, 
+   3.8383631251620307`*^9}, {3.83836318125632*^9, 3.8383631961737657`*^9}, {
+   3.8383634301888685`*^9, 3.8383634323032565`*^9}, 3.8383638378466477`*^9, {
+   3.838364539522704*^9, 3.8383645612490625`*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"bbf81f59-b586-471c-999a-c836bd3acc33"]
+},
+WindowSize->{960., 538.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+Magnification:>1. Inherited,
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (2021\:5e747\:670823\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b74bbb34-41d2-435c-b481-85e485203888"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3390, 63, 319, "Input",ExpressionUUID->"bbf81f59-b586-471c-999a-c836bd3acc33"]
+}
+]
+*)
+

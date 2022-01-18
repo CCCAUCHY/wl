@@ -1,0 +1,1076 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     50991,       1066]
+NotebookOptionsPosition[     49316,       1027]
+NotebookOutlinePosition[     49781,       1045]
+CellTagsIndexPosition[     49738,       1042]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"FindGeoLocation", "[", "\"\<36.112.179.23\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8280429571364822`*^9, 3.828042964292183*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"b641a0da-158a-4214-8049-0071d0bbb1ee"],
+
+Cell[BoxData[
+ RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.828042939083881*^9, 3.828042970324484*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"87ba13b3-76df-4cba-8268-24c83f300d7a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["36.112.179.23", "WolframAlphaLong",
+ CellChangeTimes->{{3.8280429773391237`*^9, 3.8280430670322742`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"f8934562-0c69-4a11-80c5-8f7872834639"],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "36.112.179.23", Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, Asynchronous -> All, 
+    TimeConstraint -> {20, Automatic, Automatic, Automatic}, 
+    Method -> {
+     "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
+      "https://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Entity[\"IPAddress\", \"36.112.179.23\"]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             FormBox[
+              StyleBox[
+               TemplateBox[{
+                 TagBox[
+                  TagBox["\"36.112.179.23\"", 
+                   $CellContext`TagBoxWrapper[
+                   "Entity" -> {$CellContext`InternetData, "36.112.179.23"}]],
+                   Identity], "\"  \"", 
+                 StyleBox[
+                  
+                  RowBox[{
+                   "\"(\"", "\[NoBreak]", "\"IPv4 address\"", "\[NoBreak]", 
+                    "\")\""}], {
+                   GrayLevel[0.6], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}]}, "RowDefault"], LineIndent -> 0], TraditionalForm], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "IP address registrant", "scanner" -> "Data", "id" -> 
+     "HostInformationPodIP:InternetData", "position" -> "200", "error" -> 
+     "false", "numsubpods" -> "1", "primary" -> "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+       XMLElement[
+       "minput", {}, {
+        "Dataset[EntityValue[Entity[\"IPAddress\", \"36.112.179.23\"], \
+{EntityProperty[\"IPAddress\", \"HostOrganization\"], \
+EntityProperty[\"IPAddress\", \"HostLocation\"]}, \
+\"PropertyAssociation\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"name\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                 "\"China Telecom Beijing\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"location\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 FormBox[
+                  TemplateBox[{",", "\",\"", 
+                    TagBox[
+                    TagBox["\"Beijing\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CityData, {"Beijing", "Beijing", "China"}}]],
+                     Identity], 
+                    TagBox[
+                    TagBox["\"China\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CountryData, "China"}]], Identity]}, 
+                   "RowWithSeparators"], TraditionalForm]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}], 
+     XMLElement["states", {"count" -> "2"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show map", "input" -> 
+         "HostInformationPodIP:InternetData__Show map"}, {}], 
+       XMLElement[
+       "state", {
+        "name" -> "More", "input" -> 
+         "HostInformationPodIP:InternetData__More"}, {}]}], 
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement["info", {}, {
+         XMLElement[
+         "link", {
+          "url" -> 
+           "http://maps.google.com?ie=UTF8&z=12&t=k&ll=39.93%2C116.4&q=39.93%\
+20N%2C%20116.4%20E", "text" -> "Satellite image"}, {}]}]}]}], Typeset`pod3$$ =
+    XMLElement[
+   "pod", {"title" -> "Address properties", "scanner" -> "Data", "id" -> 
+     "AddressPropertiesPod:InternetData", "position" -> "300", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+       XMLElement[
+       "minput", {}, {
+        "Entity[\"IPAddress\", \
+\"36.112.179.23\"][EntityProperty[\"IPAddress\", \"Address\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["\"class A IPv4 address\"", TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "IPv6 address", "scanner" -> "Data", "id" -> 
+     "IPv6Pod:InternetData", "position" -> "400", "error" -> "false", 
+     "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+       XMLElement[
+       "minput", {}, {
+        "Entity[\"IPAddress\", \
+\"36.112.179.23\"][EntityProperty[\"IPAddress\", \"IPv6Address\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["\"::ffff:2470:b317\"", TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {
+    XMLElement["sources", {"count" -> "1"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "https://www4b.wolframalpha.com/sources/\
+InternetDataSourceInformationNotes.html", "text" -> "Internet data"}, {}]}]}, 
+   Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True], 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> 
+    "false", {"http://www.w3.org/XML/1998/namespace", "space"} -> "preserve", 
+    "numpods" -> "4", "datatypes" -> "Internet", "timedout" -> "", 
+    "timedoutpods" -> "", "timing" -> "1.045", "parsetiming" -> "0.179", 
+    "parsetimedout" -> "false", "recalculate" -> "", "id" -> 
+    "MSP12151ibecd9cbai12f4400000e477hec6091c3h6", "host" -> 
+    "https://www4b.wolframalpha.com", "server" -> "35", "related" -> 
+    "https://www4b.wolframalpha.com/api/v1/relatedQueries.jsp?id=\
+MSPa12161ibecd9cbai12f4400004bd51h18cebig8gf1126076849232655612", "version" -> 
+    "2.6", "inputstring" -> "36.112.179.23"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> 8., 
+    "Date" -> {2021, 4, 22, 9, 17, 51.2295569`9.46209544960363}, "Line" -> 7, 
+    "SessionID" -> 22243845702803684909}, Typeset`showpods$$ = {1, 2, 3, 4}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "36.112.179.23"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{509., {157.875, 163.125}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     And[
+      Not[Typeset`initdone$$ === True], 
+      Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], 
+     Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
+ CellChangeTimes->{
+  3.828043071260803*^9},ExpressionUUID->"04485b2e-3867-4d5d-87a8-\
+2a117214b628"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"WolframAlpha", "[", "#", "]"}], "&"}], "/@", 
+  RowBox[{"{", "\"\<36.112.179.23\>\"", "}"}]}]], "Input",
+ CellChangeTimes->{{3.828043153501504*^9, 3.8280432202255793`*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"ed336185-5327-4004-a301-5a54b68d7009"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  NamespaceBox["WolframAlphaQueryResults",
+   DynamicModuleBox[{Typeset`q$$ = "36.112.179.23", Typeset`opts$$ = {
+    AppearanceElements -> {
+      "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+       "Sources"}}, Typeset`elements$$ = {
+    "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+     "Sources"}, Typeset`pod1$$ = XMLElement[
+    "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+      "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+      XMLElement["subpod", {"title" -> ""}, {
+        XMLElement[
+        "minput", {}, {"Entity[\"IPAddress\", \"36.112.179.23\"]"}], 
+        XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+          Cell[
+           BoxData[
+            FormBox[
+             TagBox[
+              FormBox[
+               StyleBox[
+                TemplateBox[{
+                  TagBox[
+                   TagBox["\"36.112.179.23\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {$CellContext`InternetData, 
+                    "36.112.179.23"}]], Identity], "\"  \"", 
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"IPv4 address\"", "\[NoBreak]", 
+                    "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}, "RowDefault"], LineIndent -> 0], TraditionalForm], 
+              PolynomialForm[#, TraditionalOrder -> False]& ], 
+             TraditionalForm]], "Output", {
+           Background -> None, 
+            GraphicsBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+              DefaultAxesStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+              DefaultTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+            Graphics3DBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+           NumberPoint -> ".", CellSize -> {550, Automatic}, 
+           AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+           RenderingOptions -> {
+            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+        XMLElement[
+        "dataformats", {}, {
+         "plaintext,minput,computabledata,formatteddata"}]}], 
+      XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+        XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+    Typeset`pod2$$ = XMLElement[
+    "pod", {"title" -> "IP address registrant", "scanner" -> "Data", "id" -> 
+      "HostInformationPodIP:InternetData", "position" -> "200", "error" -> 
+      "false", "numsubpods" -> "1", "primary" -> "true"}, {
+      XMLElement["subpod", {"title" -> ""}, {
+        XMLElement["microsources", {}, {"\n    ", 
+          XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+        XMLElement[
+        "minput", {}, {
+         "Dataset[EntityValue[Entity[\"IPAddress\", \"36.112.179.23\"], \
+{EntityProperty[\"IPAddress\", \"HostOrganization\"], \
+EntityProperty[\"IPAddress\", \"HostLocation\"]}, \
+\"PropertyAssociation\"]]"}], 
+        XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+          Cell[
+           BoxData[
+            FormBox[
+             StyleBox[
+              TagBox[
+               GridBox[{{
+                  TagBox[
+                   PaneBox[
+                    TagBox["\"name\"", Identity], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                   $CellContext`TagBoxWrapper["Label"]], 
+                  StyleBox[
+                  "\"China Telecom Beijing\"", {
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}, {
+                  TagBox[
+                   PaneBox[
+                    TagBox["\"location\"", Identity], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                   $CellContext`TagBoxWrapper["Label"]], 
+                  FormBox[
+                   TemplateBox[{",", "\",\"", 
+                    TagBox[
+                    TagBox["\"Beijing\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CityData, {"Beijing", "Beijing", "China"}}]],
+                     Identity], 
+                    TagBox[
+                    TagBox["\"China\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CountryData, "China"}]], Identity]}, 
+                    "RowWithSeparators"], TraditionalForm]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+                AutoDelete -> False, 
+                GridBoxBackground -> {"Columns" -> {None, None}}, 
+                GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}},
+                 FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic,
+                 AllowScriptLevelChange -> False], "Grid"], 
+              LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+              False], TraditionalForm]], "Output", {
+           Background -> None, 
+            GraphicsBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+              DefaultAxesStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+              DefaultTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+            Graphics3DBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+           NumberPoint -> ".", CellSize -> {550, Automatic}, 
+           AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+           RenderingOptions -> {
+            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+        XMLElement[
+        "dataformats", {}, {
+         "plaintext,minput,computabledata,formatteddata"}]}], 
+      XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+        XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}], 
+      XMLElement["states", {"count" -> "2"}, {
+        XMLElement[
+        "state", {
+         "name" -> "Show map", "input" -> 
+          "HostInformationPodIP:InternetData__Show map"}, {}], 
+        XMLElement[
+        "state", {
+         "name" -> "More", "input" -> 
+          "HostInformationPodIP:InternetData__More"}, {}]}], 
+      XMLElement["infos", {"count" -> "1"}, {
+        XMLElement["info", {}, {
+          XMLElement[
+          "link", {
+           "url" -> 
+            "http://maps.google.com?ie=UTF8&z=12&t=k&ll=39.93%2C116.4&q=39.93%\
+20N%2C%20116.4%20E", "text" -> "Satellite image"}, {}]}]}]}], Typeset`pod3$$ =
+     XMLElement[
+    "pod", {"title" -> "Address properties", "scanner" -> "Data", "id" -> 
+      "AddressPropertiesPod:InternetData", "position" -> "300", "error" -> 
+      "false", "numsubpods" -> "1"}, {
+      XMLElement["subpod", {"title" -> ""}, {
+        XMLElement["microsources", {}, {"\n    ", 
+          XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+        XMLElement[
+        "minput", {}, {
+         "Entity[\"IPAddress\", \"36.112.179.23\"][EntityProperty[\"IPAddress\
+\", \"Address\"]]"}], 
+        XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+          Cell[
+           BoxData[
+            FormBox["\"class A IPv4 address\"", TraditionalForm]], "Output", {
+           Background -> None, 
+            GraphicsBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+              DefaultAxesStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+              DefaultTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+            Graphics3DBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+           NumberPoint -> ".", CellSize -> {550, Automatic}, 
+           AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+           RenderingOptions -> {
+            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+        XMLElement[
+        "dataformats", {}, {
+         "plaintext,minput,computabledata,formatteddata"}]}], 
+      XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+        XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+    Typeset`pod4$$ = XMLElement[
+    "pod", {"title" -> "IPv6 address", "scanner" -> "Data", "id" -> 
+      "IPv6Pod:InternetData", "position" -> "400", "error" -> "false", 
+      "numsubpods" -> "1"}, {
+      XMLElement["subpod", {"title" -> ""}, {
+        XMLElement["microsources", {}, {"\n    ", 
+          XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+        XMLElement[
+        "minput", {}, {
+         "Entity[\"IPAddress\", \"36.112.179.23\"][EntityProperty[\"IPAddress\
+\", \"IPv6Address\"]]"}], 
+        XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+          Cell[
+           BoxData[
+            FormBox["\"::ffff:2470:b317\"", TraditionalForm]], "Output", {
+           Background -> None, 
+            GraphicsBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+              DefaultAxesStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+                GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+                1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+              DefaultTicksStyle -> 
+              Directive[
+               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+            Graphics3DBoxOptions -> {
+             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+           NumberPoint -> ".", CellSize -> {550, Automatic}, 
+           AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+           RenderingOptions -> {
+            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+        XMLElement[
+        "dataformats", {}, {
+         "plaintext,minput,computabledata,formatteddata"}]}], 
+      XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+        XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+    Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+    True, False, {False}, True}, Typeset`aux3$$ = {
+    True, False, {False}, True}, Typeset`aux4$$ = {
+    True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+    Typeset`nonpods$$ = {
+     XMLElement["sources", {"count" -> "1"}, {
+       XMLElement[
+       "source", {
+        "url" -> 
+         "https://www4c.wolframalpha.com/sources/\
+InternetDataSourceInformationNotes.html", "text" -> "Internet data"}, {}]}]}, 
+    Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True], 
+    Typeset`queryinfo$$ = {
+    "success" -> "true", "error" -> 
+     "false", {"http://www.w3.org/XML/1998/namespace", "space"} -> "preserve",
+      "numpods" -> "4", "datatypes" -> "Internet", "timedout" -> "", 
+     "timedoutpods" -> "", "timing" -> "1.1360000000000001", "parsetiming" -> 
+     "0.214", "parsetimedout" -> "false", "recalculate" -> "", "id" -> 
+     "MSP24681cc7cf11c7b9h29f00003cia831f4f217b3f", "host" -> 
+     "https://www4c.wolframalpha.com", "server" -> "53", "related" -> 
+     "https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=\
+MSPa24691cc7cf11c7b9h29f00004ccifeh5d9dbc6d06390999180653701922", "version" -> 
+     "2.6", "inputstring" -> "36.112.179.23"}, Typeset`sessioninfo$$ = {
+    "TimeZone" -> 8., 
+     "Date" -> {2021, 4, 22, 9, 50, 32.4756044`9.264132144307434}, "Line" -> 
+     25, "SessionID" -> 22243845702803684909}, Typeset`showpods$$ = {1, 2, 3, 
+    4}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = 
+    False, Typeset`newq$$ = "36.112.179.23"}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`FormatAlphaResults[
+       Dynamic[{
+        1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+         Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+         Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+         Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+         Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+         Typeset`newq$$}]], StandardForm],
+     ImageSizeCache->{463., {157.5, 163.5}},
+     TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+    DynamicModuleValues:>{},
+    Initialization:>If[
+      And[
+       Not[Typeset`initdone$$ === True], 
+       Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], 
+      Null; WolframAlphaClient`Private`doAsyncUpdates[
+        Hold[{
+         Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}], 
+        Typeset`asyncpods$$, 
+        Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+      Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+    SynchronousInitialization->False],
+   BaseStyle->{Deployed -> True},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "}"}]], "Output",
+ CellChangeTimes->{
+  3.8280431173026342`*^9, {3.8280431581848392`*^9, 3.8280432240510807`*^9}, 
+   3.82804461111621*^9, 3.8280450324912167`*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"9f800d6a-12f7-40fa-86dd-713f758fdc0e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"%13", "[", 
+  RowBox[{"[", 
+   RowBox[{"1", ",", "2"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.828043236910493*^9, 3.8280432728176627`*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"ed3fd6fb-5bb6-40d6-8dd6-a4fed185ae2d"],
+
+Cell[BoxData[
+ DynamicModuleBox[{Typeset`q$$ = "36.112.179.23", Typeset`opts$$ = {
+  AppearanceElements -> {
+    "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+     "Sources"}}, Typeset`elements$$ = {
+  "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+   "Sources"}, Typeset`pod1$$ = XMLElement[
+  "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+    "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    XMLElement["subpod", {"title" -> ""}, {
+      XMLElement["minput", {}, {"Entity[\"IPAddress\", \"36.112.179.23\"]"}], 
+      XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+        Cell[
+         BoxData[
+          FormBox[
+           TagBox[
+            FormBox[
+             StyleBox[
+              TemplateBox[{
+                TagBox[
+                 TagBox["\"36.112.179.23\"", 
+                  $CellContext`TagBoxWrapper[
+                  "Entity" -> {$CellContext`InternetData, "36.112.179.23"}]], 
+                 Identity], "\"  \"", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"IPv4 address\"", "\[NoBreak]", 
+                   "\")\""}], {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}, "RowDefault"], LineIndent -> 0], 
+             TraditionalForm], 
+            PolynomialForm[#, TraditionalOrder -> False]& ], 
+           TraditionalForm]], "Output", {
+         Background -> None, 
+          GraphicsBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+            DefaultAxesStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+            DefaultTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+          Graphics3DBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+         NumberPoint -> ".", CellSize -> {550, Automatic}, 
+         AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+         RenderingOptions -> {
+          "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+      XMLElement[
+      "dataformats", {}, {"plaintext,minput,computabledata,formatteddata"}]}], 
+    XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+      XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+  Typeset`pod2$$ = XMLElement[
+  "pod", {"title" -> "IP address registrant", "scanner" -> "Data", "id" -> 
+    "HostInformationPodIP:InternetData", "position" -> "200", "error" -> 
+    "false", "numsubpods" -> "1", "primary" -> "true"}, {
+    XMLElement["subpod", {"title" -> ""}, {
+      XMLElement["microsources", {}, {"\n    ", 
+        XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+      XMLElement[
+      "minput", {}, {
+       "Dataset[EntityValue[Entity[\"IPAddress\", \"36.112.179.23\"], \
+{EntityProperty[\"IPAddress\", \"HostOrganization\"], \
+EntityProperty[\"IPAddress\", \"HostLocation\"]}, \
+\"PropertyAssociation\"]]"}], 
+      XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+        Cell[
+         BoxData[
+          FormBox[
+           StyleBox[
+            TagBox[
+             GridBox[{{
+                TagBox[
+                 PaneBox[
+                  TagBox["\"name\"", Identity], 
+                  BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                 $CellContext`TagBoxWrapper["Label"]], 
+                StyleBox[
+                "\"China Telecom Beijing\"", {
+                 LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0}]}, {
+                TagBox[
+                 PaneBox[
+                  TagBox["\"location\"", Identity], 
+                  BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                 $CellContext`TagBoxWrapper["Label"]], 
+                FormBox[
+                 TemplateBox[{",", "\",\"", 
+                   TagBox[
+                    TagBox["\"Beijing\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CityData, {"Beijing", "Beijing", "China"}}]],
+                     Identity], 
+                   TagBox[
+                    TagBox["\"China\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CountryData, "China"}]], Identity]}, 
+                  "RowWithSeparators"], TraditionalForm]}}, 
+              GridBoxAlignment -> {
+               "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+              False, GridBoxBackground -> {"Columns" -> {None, None}}, 
+              GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+              FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+              AllowScriptLevelChange -> False], "Grid"], 
+            LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+            False], TraditionalForm]], "Output", {
+         Background -> None, 
+          GraphicsBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+            DefaultAxesStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+            DefaultTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+          Graphics3DBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+         NumberPoint -> ".", CellSize -> {550, Automatic}, 
+         AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+         RenderingOptions -> {
+          "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+      XMLElement[
+      "dataformats", {}, {"plaintext,minput,computabledata,formatteddata"}]}], 
+    XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+      XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}], 
+    XMLElement["states", {"count" -> "2"}, {
+      XMLElement[
+      "state", {
+       "name" -> "Show map", "input" -> 
+        "HostInformationPodIP:InternetData__Show map"}, {}], 
+      XMLElement[
+      "state", {
+       "name" -> "More", "input" -> 
+        "HostInformationPodIP:InternetData__More"}, {}]}], 
+    XMLElement["infos", {"count" -> "1"}, {
+      XMLElement["info", {}, {
+        XMLElement[
+        "link", {
+         "url" -> 
+          "http://maps.google.com?ie=UTF8&z=12&t=k&ll=39.93%2C116.4&q=39.93%\
+20N%2C%20116.4%20E", "text" -> "Satellite image"}, {}]}]}]}], Typeset`pod3$$ =
+   XMLElement[
+  "pod", {"title" -> "Address properties", "scanner" -> "Data", "id" -> 
+    "AddressPropertiesPod:InternetData", "position" -> "300", "error" -> 
+    "false", "numsubpods" -> "1"}, {
+    XMLElement["subpod", {"title" -> ""}, {
+      XMLElement["microsources", {}, {"\n    ", 
+        XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+      XMLElement[
+      "minput", {}, {
+       "Entity[\"IPAddress\", \
+\"36.112.179.23\"][EntityProperty[\"IPAddress\", \"Address\"]]"}], 
+      XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+        Cell[
+         BoxData[
+          FormBox["\"class A IPv4 address\"", TraditionalForm]], "Output", {
+         Background -> None, 
+          GraphicsBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+            DefaultAxesStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+            DefaultTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+          Graphics3DBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+         NumberPoint -> ".", CellSize -> {550, Automatic}, 
+         AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+         RenderingOptions -> {
+          "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+      XMLElement[
+      "dataformats", {}, {"plaintext,minput,computabledata,formatteddata"}]}], 
+    XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+      XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+  Typeset`pod4$$ = XMLElement[
+  "pod", {"title" -> "IPv6 address", "scanner" -> "Data", "id" -> 
+    "IPv6Pod:InternetData", "position" -> "400", "error" -> "false", 
+    "numsubpods" -> "1"}, {
+    XMLElement["subpod", {"title" -> ""}, {
+      XMLElement["microsources", {}, {"\n    ", 
+        XMLElement["microsource", {}, {"InternetData"}], "\n   "}], 
+      XMLElement[
+      "minput", {}, {
+       "Entity[\"IPAddress\", \
+\"36.112.179.23\"][EntityProperty[\"IPAddress\", \"IPv6Address\"]]"}], 
+      XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+        Cell[
+         BoxData[
+          FormBox["\"::ffff:2470:b317\"", TraditionalForm]], "Output", {
+         Background -> None, 
+          GraphicsBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+            DefaultAxesStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+              GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+              1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+            DefaultTicksStyle -> 
+            Directive[
+             FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+          Graphics3DBoxOptions -> {
+           DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+         NumberPoint -> ".", CellSize -> {550, Automatic}, 
+         AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+         RenderingOptions -> {
+          "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+      XMLElement[
+      "dataformats", {}, {"plaintext,minput,computabledata,formatteddata"}]}], 
+    XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+      XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+  Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+  True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True}, 
+  Typeset`aux4$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+  Typeset`nonpods$$ = {
+   XMLElement["sources", {"count" -> "1"}, {
+     XMLElement[
+     "source", {
+      "url" -> "https://www4d.wolframalpha.com/sources/\
+InternetDataSourceInformationNotes.html", "text" -> "Internet data"}, {}]}]}, 
+  Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True], 
+  Typeset`queryinfo$$ = {
+  "success" -> "true", "error" -> 
+   "false", {"http://www.w3.org/XML/1998/namespace", "space"} -> "preserve", 
+   "numpods" -> "4", "datatypes" -> "Internet", "timedout" -> "", 
+   "timedoutpods" -> "", "timing" -> "0.849", "parsetiming" -> "0.217", 
+   "parsetimedout" -> "false", "recalculate" -> "", "id" -> 
+   "MSP8942297a88f34dic3cb0000213641df11haddh9", "host" -> 
+   "https://www4d.wolframalpha.com", "server" -> "11", "related" -> 
+   "https://www4d.wolframalpha.com/api/v1/relatedQueries.jsp?id=\
+MSPa8952297a88f34dic3cb00001aci4f1565ae62548826616958337684267", "version" -> 
+   "2.6", "inputstring" -> "36.112.179.23"}, Typeset`sessioninfo$$ = {
+  "TimeZone" -> 8., 
+   "Date" -> {2021, 4, 22, 9, 20, 24.0198413`9.133145057375538}, "Line" -> 13,
+    "SessionID" -> 22243845702803684909}, Typeset`showpods$$ = {1, 2, 3, 4}, 
+  Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+  Typeset`newq$$ = "36.112.179.23"}, 
+  DynamicBox[ToBoxes[
+    AlphaIntegration`FormatAlphaResults[
+     Dynamic[{
+      1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+       Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+       Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+       Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+       Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+       Typeset`newq$$}]], StandardForm],
+   ImageSizeCache->{463., {157.5, 163.5}},
+   TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+  DynamicModuleValues:>{},
+  Initialization:>If[
+    And[
+     Not[Typeset`initdone$$ === True], 
+     Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], Null; 
+    WolframAlphaClient`Private`doAsyncUpdates[
+      Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}], 
+      Typeset`asyncpods$$, 
+      Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+    Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+  SynchronousInitialization->False]], "Output",
+ CellChangeTimes->{{3.8280432578496227`*^9, 3.8280432733382235`*^9}},
+ CellLabel->"Out[18]=",ExpressionUUID->"2ccfb021-060a-47c0-a4c4-92c091ac21ab"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", 
+  RowBox[{"\"\<36.112.179.23\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\"\<Input\>\"", ",", "1"}], "}"}], ",", 
+     "\"\<FormattedData\>\""}], "}"}]}], "]"}]], "Input",
+ CellLabel->"In[23]:=",ExpressionUUID->"7623d753-2c5f-4764-b89f-6a6901257aac"],
+
+Cell[BoxData[
+ RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.828043932527896*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"dc9ff145-b202-497c-ac10-2be247f34e98"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"WolframAlpha", "[", 
+    RowBox[{"#", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<HostInformationPodIP:InternetData\>\"", ",", "1"}], 
+        "}"}], ",", "\"\<FormattedData\>\""}], "}"}]}], "]"}], "&"}], "/@", 
+  RowBox[{"{", 
+   RowBox[{
+   "\"\<36.112.179.23\>\"", ",", "\"\<204.124.180.158\>\"", ",", 
+    "\"\<36.112.179.25\>\""}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.828043332503888*^9, 3.8280433956488857`*^9}, {
+  3.828043431166808*^9, 3.8280434390763836`*^9}, {3.8280451714162226`*^9, 
+  3.8280451781085424`*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"71d9e496-de9f-4823-84dd-4233f390bc00"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {"\<\"name\"\>", "\<\"China Telecom Beijing\"\>"},
+      {"\<\"location\"\>", "\<\"Beijing, China\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"name\"\>", "\<\"IT7 Networks\"\>"},
+      {"\<\"location\"\>", "\<\"Toronto, Ontario, Canada\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"name\"\>", "\<\"China Telecom Beijing\"\>"},
+      {"\<\"location\"\>", "\<\"Beijing, China\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.8280432865703692`*^9, {3.828043354790524*^9, 3.828043372692478*^9}, 
+   3.8280434473488307`*^9, 3.828045188964906*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"42c02f43-bf72-47b8-802e-191904bff1f9"]
+}, Open  ]]
+},
+WindowSize->{573.75, 436.875},
+WindowMargins->{{Automatic, 118.125}, {Automatic, 40.5}},
+TaggingRules->{"TryRealOnly" -> False},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2406ec61-84f8-44f9-bb6b-09ccd957eb84"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 234, 3, 43, "Input",ExpressionUUID->"b641a0da-158a-4214-8049-0071d0bbb1ee"],
+Cell[817, 27, 222, 3, 32, "Output",ExpressionUUID->"87ba13b3-76df-4cba-8268-24c83f300d7a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1076, 35, 189, 2, 42, "WolframAlphaLong",ExpressionUUID->"f8934562-0c69-4a11-80c5-8f7872834639"],
+Cell[1268, 39, 15175, 302, 331, "Print",ExpressionUUID->"04485b2e-3867-4d5d-87a8-2a117214b628"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16480, 346, 298, 6, 43, "Input",ExpressionUUID->"ed336185-5327-4004-a301-5a54b68d7009"],
+Cell[16781, 354, 15381, 303, 340, "Output",ExpressionUUID->"9f800d6a-12f7-40fa-86dd-713f758fdc0e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32199, 662, 250, 5, 28, "Input",ExpressionUUID->"ed3fd6fb-5bb6-40d6-8dd6-a4fed185ae2d"],
+Cell[32452, 669, 14496, 286, 340, "Output",ExpressionUUID->"2ccfb021-060a-47c0-a4c4-92c091ac21ab"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46985, 960, 327, 8, 43, "Input",ExpressionUUID->"7623d753-2c5f-4764-b89f-6a6901257aac"],
+Cell[47315, 970, 201, 3, 32, "Output",ExpressionUUID->"dc9ff145-b202-497c-ac10-2be247f34e98"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47553, 978, 691, 17, 84, "Input",ExpressionUUID->"71d9e496-de9f-4823-84dd-4233f390bc00"],
+Cell[48247, 997, 1053, 27, 149, "Output",ExpressionUUID->"42c02f43-bf72-47b8-802e-191904bff1f9"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

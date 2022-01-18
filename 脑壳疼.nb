@@ -1,0 +1,531 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20767,        521]
+NotebookOptionsPosition[     20270,        503]
+NotebookOutlinePosition[     20682,        520]
+CellTagsIndexPosition[     20639,        517]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"19", "//", "Range"}], "//", 
+     RowBox[{
+      RowBox[{"Subsets", "[", 
+       RowBox[{"#", ",", 
+        RowBox[{"{", "3", "}"}]}], "]"}], "&"}]}], "//", 
+    RowBox[{
+     RowBox[{"GatherBy", "[", 
+      RowBox[{"#", ",", "Total"}], "]"}], "&"}]}], "//", 
+   RowBox[{
+    RowBox[{"Parallelize", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"Subsets", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "3", "}"}]}], "]"}], "//", 
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "//", "Flatten"}], "//", "Union"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "6"}], 
+                    "&"}]}], ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Subsets", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "2", "}"}]}], "]"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Intersection", "@@", "#"}], "&"}], "/@", "#"}], 
+                    "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "1"}], 
+                    "&"}], "/@", "#"}], ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "//", "Flatten"}], "//", "Union"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "3"}], 
+                    "&"}]}]}], "}"}], "&"}]}]}], "}"}], "//", "Flatten"}], "//", 
+                    RowBox[{
+                    RowBox[{"And", "@@", "#"}], "&"}]}], ")"}], "&"}]}], 
+                    "]"}], "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{"Subsets", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "3", "}"}]}], "]"}], "&"}]}], "//", 
+                   RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Union", "@@", "#"}], "&"}], "/@", "#"}], "//", 
+                    RowBox[{
+                    RowBox[{"Subsets", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "2", "}"}]}], "]"}], "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Intersection", "@@", "#"}], "&"}], "/@", "#"}], 
+                    "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "\[Equal]", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}], "\[Equal]", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "3", "]"}], "]"}]}], "\[And]", 
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "]"}], "\[Equal]", 
+                    "1"}]}], "&"}]}], ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "//", "Flatten"}], "//", "Tally"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}], "\[Equal]", "2"}], 
+                    "&"}]}], "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"All", ",", "1"}], "]"}], "]"}], "&"}]}], ")"}], 
+                    "&"}], "/@", "#"}], "//", 
+                    RowBox[{
+                    RowBox[{"Intersection", "@@", "#"}], "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "1"}], 
+                    "&"}]}], ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "//", "Flatten"}], "//", "Union"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "16"}], 
+                    "&"}]}], ")"}]}], "&"}]}], "]"}], "&"}]}], "//", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"#", "~", 
+                    RowBox[{"Function", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"Triangles", ",", "\[Alpha]Point"}], "}"}], ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", "\[Alpha]Point"}], "]"}], "&"}]}], 
+                    "]"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Prepend", "[", 
+                    RowBox[{
+                    RowBox[{"Complement", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "\[Alpha]Point", "}"}]}], "]"}], ",", 
+                    "\[Alpha]Point"}], "]"}], "&"}], "/@", "#"}], "&"}]}], 
+                    ",", 
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{"Not", "[", 
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", "\[Alpha]Point"}], "]"}], "]"}], 
+                    "&"}]}], "]"}], "//", "First"}]}], "]"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"#", "\[Intersection]", "c"}], ",", 
+                    RowBox[{"#", "//", "Reverse"}]}], "}"}], "//", 
+                    "Flatten"}], "//", "DeleteDuplicates"}], "//", 
+                    "Reverse"}], ")"}], "&"}], "/@", 
+                    RowBox[{"{", 
+                    RowBox[{"a", ",", "b"}], "}"}]}], ",", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"a", "\[Intersection]", "c"}], ",", 
+                    RowBox[{"Complement", "[", 
+                    RowBox[{"c", ",", "a", ",", "b"}], "]"}], ",", 
+                    RowBox[{"b", "\[Intersection]", "c"}]}], "}"}], "//", 
+                    "Flatten"}]}], "]"}]}], "]"}], "@@", "#"}], "&"}]}], 
+                    ")"}], "&"}], "/@", "Triangles"}]}], "]"}], "~", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Flatten", "/@", "#"}], "//", 
+                    RowBox[{
+                    RowBox[{"Intersection", "@@", "#"}], "&"}]}], "//", 
+                    "First"}], ")"}]}], ")"}], "&"}], "/@", "#"}], "&"}]}], "//", 
+                 RowBox[{
+                  RowBox[{"GatherBy", "[", 
+                   RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"1", ",", "1", ",", "1"}], "]"}], "]"}], "&"}]}], 
+                   "]"}], "&"}]}], "//", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"Subsets", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"{", "2", "}"}]}], "]"}], "//", 
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "\[Intersection]", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "\[Equal]", 
+                    RowBox[{"{", "}"}]}], ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "//", "Flatten"}], "//", "Union"}], "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "19"}], 
+                    "&"}]}], ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"All", ",", "All", ",", 
+                    RowBox[{"1", ";;", "2"}]}], "]"}], "]"}], "//", 
+                    RowBox[{
+                    RowBox[{"Flatten", "[", 
+                    RowBox[{"#", ",", "2"}], "]"}], "&"}]}], "//", "Union"}], 
+                    "//", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "6"}], 
+                    "&"}]}], ")"}]}], "&"}]}], "]"}], "&"}]}], ")"}], "&"}], "/@",
+                   "#"}], "&"}]}], "//", 
+               RowBox[{
+                RowBox[{"Join", "@@", "#"}], "&"}]}], "//", 
+              RowBox[{
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Quiet", "[", 
+                  RowBox[{"Check", "[", 
+                   RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Join", "@@", "#"}], "//", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "}"}], ",", 
+                    RowBox[{"#", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"2", ";;", 
+                    RowBox[{"-", "1"}]}], "]"}], "]"}]}], "}"}], "&"}]}], "//", 
+                    RowBox[{
+                    RowBox[{"Nest", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"\[Alpha]", ",", "\[Beta]"}], "}"}], ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Select", "[", 
+                    RowBox[{"\[Beta]", ",", 
+                    RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\[Alpha]", "[", 
+                    RowBox[{"[", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], ",", "2"}], "]"}], "]"}]}], "]"}], 
+                    "&"}]}], "]"}], "//", "First"}], "//", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"Append", "[", 
+                    RowBox[{"\[Alpha]", ",", 
+                    RowBox[{
+                    RowBox[{"Prepend", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\[Alpha]", "[", 
+                    RowBox[{"[", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], ",", "2"}], "]"}], "]"}]}], "]"}], "//",
+                     "DeleteDuplicates"}]}], "]"}], ",", 
+                    RowBox[{"Complement", "[", 
+                    RowBox[{"\[Beta]", ",", 
+                    RowBox[{"{", "#", "}"}]}], "]"}]}], "}"}], "&"}]}]}], 
+                    "]"}], "@@", "#"}], "&"}], ",", "#", ",", "5"}], "]"}], 
+                    "&"}]}], "//", "First"}], ")"}], ",", 
+                    RowBox[{"{", "}"}]}], "]"}], "]"}], "&"}], "/@", "#"}], 
+               "&"}]}], "//", 
+             RowBox[{
+              RowBox[{"Complement", "[", 
+               RowBox[{"#", ",", 
+                RowBox[{"{", 
+                 RowBox[{"{", "}"}], "}"}]}], "]"}], "&"}]}], "//", 
+            RowBox[{
+             RowBox[{"GatherBy", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", 
+                    RowBox[{"All", ",", 
+                    RowBox[{"1", ";;", "2"}]}], "]"}], "]"}], "//", 
+                  RowBox[{
+                   RowBox[{"Union", "@@", "#"}], "&"}]}], ")"}], "&"}]}], 
+              "]"}], "&"}]}], "//", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"#", "[", 
+                 RowBox[{"[", "1", "]"}], "]"}], "//", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"Function", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"#", "\[Intersection]", "c"}], ",", 
+                    RowBox[{"#", "//", "Reverse"}]}], "}"}], "//", 
+                    "Flatten"}], "//", "DeleteDuplicates"}], "//", 
+                    "Reverse"}], ")"}], "&"}], "/@", 
+                    RowBox[{"{", 
+                    RowBox[{"a", ",", "b"}], "}"}]}], ",", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"a", "\[Intersection]", "c"}], ",", 
+                    RowBox[{"Complement", "[", 
+                    RowBox[{"c", ",", "a", ",", "b"}], "]"}], ",", 
+                    RowBox[{"b", "\[Intersection]", "c"}]}], "}"}], "//", 
+                    "Flatten"}]}], "]"}]}], "]"}], "@@", "#"}], "&"}], "/@", 
+                  "#"}], "&"}]}], ")"}], "&"}], "/@", "#"}], "&"}]}], "//", 
+          RowBox[{
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"#", "\[NotEqual]", 
+              RowBox[{"{", "}"}]}], ",", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"#", "//", 
+                  RowBox[{
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"#", ",", "InputForm"}], "]"}], "&"}]}], "//", 
+                 RowBox[{
+                  RowBox[{"StringReplace", "[", 
+                   RowBox[{"#", ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"\< \>\"", "\[Rule]", "\"\<\>\""}], ",", 
+                    RowBox[{"\"\<\\n\>\"", "\[Rule]", "\"\<\>\""}]}], "}"}]}],
+                    "]"}], "&"}]}], "//", 
+                RowBox[{
+                 RowBox[{"StringReplace", "[", 
+                  RowBox[{"#", ",", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    "\"\<}}},{{{\>\"", "\[Rule]", "\"\<}}},\\n{{{\>\""}], 
+                    "}"}]}], "]"}], "&"}]}], ")"}], "~", 
+              RowBox[{"Function", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"s1", ",", "s2"}], "}"}], ",", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"OpenWrite", "[", "s2", "]"}], "//", 
+                  RowBox[{"Function", "[", 
+                   RowBox[{
+                    RowBox[{"{", "s3", "}"}], ",", 
+                    RowBox[{
+                    RowBox[{"WriteString", "[", 
+                    RowBox[{"s3", ",", "s1"}], "]"}], ";", 
+                    RowBox[{"Close", "[", "s3", "]"}]}]}], "]"}]}], ";", 
+                 "s2"}]}], "]"}], "~", 
+              RowBox[{"(", 
+               RowBox[{"\"\<Hexagons-S=\>\"", "<>", 
+                RowBox[{"ToString", "[", 
+                 RowBox[{"Total", "[", 
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", 
+                    RowBox[{"1", ",", "1", ",", "1"}], "]"}], "]"}], "]"}], 
+                 "]"}], "<>", "\"\<.txt\>\""}], ")"}]}]}], "]"}], "&"}]}], 
+         ")"}], "&"}], "/@", "#"}], ",", 
+      RowBox[{"Method", "\[Rule]", "\"\<FinestGrained\>\""}]}], "]"}], 
+    "&"}]}], "//", 
+  RowBox[{
+   RowBox[{"DeleteCases", "[", 
+    RowBox[{"#", ",", "Null"}], "]"}], "&"}]}]], "Input",
+ CellChangeTimes->{{3.833532764468943*^9, 3.833532764469502*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"4ef56880-2f81-4aac-b42f-ac681383d626"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Hexagons-S=22.txt\"\>", ",", "\<\"Hexagons-S=23.txt\"\>", 
+   ",", "\<\"Hexagons-S=24.txt\"\>", ",", "\<\"Hexagons-S=25.txt\"\>", 
+   ",", "\<\"Hexagons-S=26.txt\"\>", ",", "\<\"Hexagons-S=27.txt\"\>", 
+   ",", "\<\"Hexagons-S=28.txt\"\>", ",", "\<\"Hexagons-S=29.txt\"\>", 
+   ",", "\<\"Hexagons-S=31.txt\"\>", ",", "\<\"Hexagons-S=32.txt\"\>", 
+   ",", "\<\"Hexagons-S=33.txt\"\>", ",", "\<\"Hexagons-S=34.txt\"\>", 
+   ",", "\<\"Hexagons-S=35.txt\"\>", ",", "\<\"Hexagons-S=36.txt\"\>", 
+   ",", "\<\"Hexagons-S=37.txt\"\>", ",", "\<\"Hexagons-S=38.txt\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8335329955787745`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"86597215-1ea7-4bc4-af8e-131d03ccafd9"]
+}, Open  ]]
+},
+WindowSize->{759, 813},
+WindowMargins->{{572, Automatic}, {Automatic, 84}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c149d9fa-3763-4fad-a245-0a4afb9d4ad5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 18921, 464, 1618, "Input",ExpressionUUID->"4ef56880-2f81-4aac-b42f-ac681383d626"],
+Cell[19504, 488, 750, 12, 90, "Output",ExpressionUUID->"86597215-1ea7-4bc4-af8e-131d03ccafd9"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
